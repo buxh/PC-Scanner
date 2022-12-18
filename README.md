@@ -7,7 +7,7 @@ https://solo.to/buxh
 - **THIS SHOULD NOT REPLACE YOUR CURRENT ANTI-VIRUS SCANNER**
 
 ## Features
-- Attempts to find RATs
+- Attempts to find active connections
 - Collects all running exe's names
 - Locates all local appdata & appdata file names
 - Gathers all start up file names
