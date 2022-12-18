@@ -5,6 +5,7 @@ https://solo.to/buxh
 - Not the best but it gets the job done kinda
 - This was created in November 2020
 - **THIS SHOULD NOT REPLACE YOUR CURRENT ANTI-VIRUS SCANNER**
+- I have not coded in batch in over a year because it's terrible so don't ask me for help just look it up on google 💀
 
 ## Features
 - Attempts to find active connections
