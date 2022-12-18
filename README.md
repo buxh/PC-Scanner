@@ -56,6 +56,4 @@ echo  [+] Message sent to webhook
 ```
 
 ## Help
-If you are in need of help open an issue or contact me on discord: `envy#4339`
-
-If the discord is invalid the updated name & tag will be on my [github profile](https://github.com/buxh) or [here](https://solo.to/buxh)
+google, buddy
