@@ -19,7 +19,7 @@ https://solo.to/buxh
 ## How to use
 i. Create a [webhook](https://www.socialoomph.com/help/view/help_discord_webhook_how/).
 
-ii. Replace "REPLACE_WITH_YOUR_WEBHOOK" on [line 17]() with your webhook.
+ii. Right click and edit `Scanner.bat` then replace "REPLACE_WITH_YOUR_WEBHOOK" on [line 17](https://github.com/buxh/PC-Scanner/blob/main/Scanner.bat#L17) with your webhook.
 ```bat
 set webhook=REPLACE_WITH_YOUR_WEBHOOK
 ```
