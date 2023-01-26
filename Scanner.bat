@@ -14,7 +14,7 @@ if errorlevel 1 (echo  [-] Could not connect to discord api & timeout /t 3 >nul 
 
 ::======================================================================
 :config
-set webhook=REPLACE_WITH_YOUR_WEBHOOK
+set webhook=REPLACE_WITH_WEBHOOK
 
 ::======================================================================
 
@@ -70,7 +70,7 @@ for /f "delims=" %%q in (%temp%/possibleratsLink.txt) do set CC=%%q >nul
 
 echo  [!] Sending files to webhook...
 
-curl --ssl-no-revoke -X POST -H "Content-type: application/json" --data "{\"content\": \"--------------------------------\n@everyone\n`Scan Results`\n\nPC Username: **%USERNAME%**\nCurrent Time: **%time%**\n\nAll runnings programs: **%LC%**\nAppdata Search Diagnostic: **%GG%**\nLocal Appdata Search Diagnostic: **%AA%**\nStartup Diagnostic Files: **%BB%**\n--------------------------------\"}" %webhook%
+curl --ssl-no-revoke -X POST -H "Content-type: application/json" --data "{\"content\": \"--------------------------------\n@everyone\n`Scan Results`\n\nPC Username: **%USERNAME%**\nCurrent Time: **%time%**\n\nAll runnings programs: **%LC%**\nAppdata Search Diagnostic: **%GG%**\nLocal Appdata Search Diagnostic: **%AA%**\nStartup Diagnostic Files: **%BB%**\nPotential Rats: **%CC%**\n--------------------------------\"}" %webhook%
 
 echo  [+] Message sent to webhook
 
